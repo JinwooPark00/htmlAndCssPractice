@@ -3,9 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HTML Practice</title>
-	<link rel="stylesheet" href= "css/main.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	
+	<div class="container">
+		<img src="images/logo.svg" alt="24andfour logo" class="logo"> <!-- class tag lets you point to it for css -->
+
+
+		<nav><!-- put all the navigation stuff (like on the top of the screen with 'about' 'team' 'product') inside nav tag for good practice-->
+
+			<a href="#" class="hide-desktop">
+				<img src="images/ham.svg" alt="toggle menu" class="menu" id="menu"> <!-- id is for javascript-->
+			</a> <!-- a makes it clickable, # means it doesnt hyperlink to anywhere-->
+
+			<ul class="show-desktop hide-desktop" id="nav">
+				
+			</ul>
+		</nav>
+
+	</div>
 </body>
 </html> 

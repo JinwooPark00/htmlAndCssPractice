@@ -1,3 +1,3 @@
 # htmlAndCssPractice
 
-Test.
+dev note: ctrl+shift+r to update browser live

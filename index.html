@@ -7,20 +7,94 @@
 </head>
 <body>
 	<div class="container">
-		<img src="images/logo.svg" alt="24andfour logo" class="logo"> <!-- class tag lets you point to it for css -->
+		<header>
+			<img src="images/logo.svg" alt="24andfour logo" class="logo"> <!-- class tag lets you point to it for css -->
 
 
-		<nav><!-- put all the navigation stuff (like on the top of the screen with 'about' 'team' 'product') inside nav tag for good practice-->
+			<nav><!-- put all the navigation stuff (like on the top of the screen with 'about' 'team' 'product') inside nav tag for good practice-->
 
-			<a href="#" class="hide-desktop">
-				<img src="images/ham.svg" alt="toggle menu" class="menu" id="menu"> <!-- id is for javascript-->
-			</a> <!-- a makes it clickable, # means it doesnt hyperlink to anywhere-->
+				<a href="#" class="hide-desktop">
+					<img src="images/ham.svg" alt="toggle menu" class="menu" id="menu"> <!-- id is for javascript-->
+				</a> <!-- a makes it clickable, # means it doesnt hyperlink to anywhere-->
 
-			<ul class="show-desktop hide-desktop" id="nav">
-				
-			</ul>
-		</nav>
+				<ul class="show-desktop hide-desktop" id="nav">
+					<li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
+					<li><a href="#">services</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<section>
+			<img src="images/server.svg" alt="server graphic" class="server">
 
+			<h1>Web Hosting For the Modern Era</h1>
+			<p class="subhead"> Go serverless and play for only what you use</p>
+
+			<img src="images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+
+		</section>
 	</div>
+
+	<div class="blue-container">
+		<div class="container">
+			<ul>
+				<li>
+					<img src="images/icon-1.svg" alt="Calendar icon">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta quis ex non tincidunt. Nullam ut sapien tristique, consectetur dui at, viverra ante. Nulla facilisi.</p>
+				</li>
+				<li>
+					<img src="images/icon-2.svg" alt="Card icon">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta quis ex non tincidunt. Nullam ut sapien tristique, consectetur dui at, viverra ante. Nulla facilisi.</p>
+				</li>
+				<li>
+					<img src="images/icon-3.svg" alt="Phone icon">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta quis ex non tincidunt. Nullam ut sapien tristique, consectetur dui at, viverra ante. Nulla facilisi.</p>
+ 				</li>	
+			</ul>
+		</div>
+	</div>
+
+	<div class="gray-container">
+		<div class="container">
+			<ul>
+				<li>
+					<figure>
+						<img src="images/user1.png" alt="User picture">
+						<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta quis ex non tincidunt. Nullam ut sapien tristique, consectetur dui at, viverra ante. Nulla facilisi.</blockquote>
+						<figcaption>Jane Doe</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/user2.png" alt="User picture">
+						<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta quis ex non tincidunt. Nullam ut sapien tristique, consectetur dui at, viverra ante. Nulla facilisi.</blockquote>
+						<figcaption>John Doe</figcaption>
+					</figure>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class=container>
+		<h2>Start your free trial now!</h2>
+		<a href="#" class="cta">Get Started</a>
+	</div>
+
+	<footer>
+		<div class="footer-container">
+			<div class="container">
+				<a href="#">
+					<img src="images/logo-white.svg" class="logo" alt="logo">
+				</a>
+				<p class="address">San Jose, 95111<br>USA</p>
+				<ul class="footer-links">
+					<li><a href="#">Terms of Service</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+				</ul>
+				</a>
+			</div>
+		</div>
+	</footer>
 </body>
 </html> 
